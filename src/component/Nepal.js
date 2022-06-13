@@ -1,6 +1,8 @@
+import "./Nepal.css";
+
 function Nepal() {
   return (
-    <div>
+    <div className="nepal">
       <h1>I Am from Nepal Component</h1>
       <p>Hello Nepal Component</p>
     </div>
