@@ -5,7 +5,7 @@ function Example(props) {
     <div className="person">
       <h1>{props.name}</h1>
       <p>Your Age:{props.age}</p>
-      <Nepal />
+      <Nepal name="Nepal Component" />
     </div>
   );
 }

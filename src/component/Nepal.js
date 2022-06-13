@@ -1,9 +1,9 @@
 import "./Nepal.css";
 
-function Nepal() {
+function Nepal(props) {
   return (
     <div className="nepal">
-      <h1>I Am from Nepal Component</h1>
+      <h1>I Am from {props.name}</h1>
       <p>Hello Nepal Component</p>
     </div>
   );
